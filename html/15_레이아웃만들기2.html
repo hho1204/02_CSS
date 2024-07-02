@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>다양한 요소를 포함한 예시 사이트</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to Example Site</h1>
+        <nav>
+            <ul>
+                <li><a href="#section1">Section 1</a></li>
+                <li><a href="#section2">Section 2</a></li>
+                <li><a href="#section3">Section 3</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="section1">
+            <h2>병합된 표 예시</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th rowspan="2">번호</th>
+                        <th colspan="2">정보</th>
+                    </tr>
+                    <tr>
+                        <th>이름</th>
+                        <th>나이</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>김철수</td>
+                        <td>25</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>이영희</td>
+                        <td>30</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section id="section2">
+            <h2>멀티미디어 예시</h2>
+            <div class="media-container">
+                <img src="image.jpg" alt="이미지">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/dQw4w9WgXcQ" frameborder="0" allowfullscreen></iframe>
+                <audio controls>
+                    <source src="audio.mp3" type="audio/mpeg">
+                    Your browser does not support the audio element.
+                </audio>
+            </div>
+        </section>
+
+        <section id="section3">
+            <h2>다양한 색상과 폰트</h2>
+            <div class="color-font-example">
+                <p style="color: #ff6347;">이 텍스트는 빨간색입니다.</p>
+                <p style="color: #4682b4;">이 텍스트는 steelblue 색입니다.</p>
+                <p style="color: #008000;">이 텍스트는 초록색입니다.</p>
+                <p style="font-family: 'Arial', sans-serif;">이 텍스트는 Arial 폰트입니다.</p>
+                <p style="font-family: 'Georgia', serif;">이 텍스트는 Georgia 폰트입니다.</p>
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Example Site. All rights reserved.</p>
+    </footer>
+</body>
+</html>
